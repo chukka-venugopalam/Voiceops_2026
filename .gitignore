@@ -1,0 +1,36 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local datasets and sensitive working data
+data_pack/
+Capstone_Project_Dataset_FTTT_2026/
+tickets_created.csv
+tools/tickets_created.csv
+
+# Generated outputs, caches, and temporary files
+out/
+out_test/
+test_audio/
+output/
+eval/results/
+.cache/
+*.tmp
+*.log
+reply*.wav
+
+# Local IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
